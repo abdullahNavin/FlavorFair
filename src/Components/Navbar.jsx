@@ -1,5 +1,4 @@
 import React from 'react';
-import Headroom from 'react-headroom';
 import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
@@ -9,8 +8,8 @@ const Navbar = () => {
         <li className='text-xl font-bold'><NavLink to={'/deshbord'}>Deshbord</NavLink></li>
     </>
     return (
-        <Headroom>
-            <div className="navbar bg-base-100">
+        <div className='bg-[#ffffff6f] navBar'>
+            <div className="navbar container mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -35,7 +34,7 @@ const Navbar = () => {
                     <a className="btn">Login</a>
                 </div>
             </div>
-        </Headroom>
+        </div>
     );
 };
 

@@ -1,0 +1,208 @@
+[
+    {
+        "title": "Grandma's Apple Pie",
+        "author": "JaneDoe123",
+        "email": "jane@example.com",
+        "authorImg": "https://s26162.pcdn.co/wp-content/uploads/2018/01/rawImage-861x1024.jpg",
+        "recipeImg": "https://blessedbeyondcrazy.com/wp-content/uploads/2017/08/23240379_m.jpg",
+        "description": "A traditional apple pie with a flaky crust and sweet apple filling.",
+        "ingredients": ["Apples", "Flour", "Butter", "Sugar", "Cinnamon", "Nutmeg"],
+        "instructions": [
+            "Preheat oven to 375°F (190°C).",
+            "Peel and slice apples.",
+            "Mix apples with sugar, cinnamon, and nutmeg.",
+            "Prepare the crust and place in a pie dish.",
+            "Add apple mixture to crust and cover with top crust.",
+            "Bake for 50-60 minutes until golden brown."
+        ],
+        "cuisineType": "American",
+        "difficulty": "Medium",
+        "price": 5.99,
+        "rating": 4.8,
+        "category": "Desserts"
+    },
+    {
+        "title": "Spicy Thai Noodles",
+        "author": "SpiceQueen",
+        "email": "spicequeen@example.com",
+        "authorImg": "https://i.pinimg.com/236x/4a/0f/fa/4a0ffae7dcdc5f1d1423bfbf192e0714.jpg",
+        "recipeImg": "https://img.freepik.com/premium-photo/exploring-thai-cuisine-from-shrimp-pad-thai-stirfried-noodles-more_973047-72774.jpg?w=740",
+        "description": "A flavorful and spicy noodle dish with a kick of Thai chilies.",
+        "ingredients": ["Rice noodles", "Chicken", "Thai chilies", "Garlic", "Soy sauce", "Peanuts"],
+        "instructions": [
+            "Cook rice noodles according to package instructions.",
+            "Sauté chicken and garlic until cooked.",
+            "Add Thai chilies and soy sauce.",
+            "Mix in noodles and top with crushed peanuts."
+        ],
+        "cuisineType": "Thai",
+        "difficulty": "Easy",
+        "price": 7.99,
+        "rating": 4.5,
+        "category": "Main Courses"
+    },
+    {
+        "title": "Vegan Avocado Toast",
+        "author": "HealthyEater",
+        "email": "healthyeater@example.com",
+        "authorImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_I5zZfw2r8F_n2O57HIuodxWOelWjvbH1gcZUYgyTaVXrfv27aG0a5WwjbKkx7HoG6YA&usqp=CAU",
+        "recipeImg": "https://thewholesomefork.com/wp-content/uploads/2016/09/Garlic-mushroom-avocado-toast-1-1-of-1-1.jpg",
+        "description": "A simple and healthy avocado toast perfect for breakfast.",
+        "ingredients": ["Whole grain bread", "Avocado", "Lemon juice", "Salt", "Pepper", "Chili flakes"],
+        "instructions": [
+            "Toast the bread to your liking.",
+            "Mash avocado with lemon juice, salt, and pepper.",
+            "Spread avocado mixture on toast.",
+            "Sprinkle chili flakes on top."
+        ],
+        "cuisineType": "American",
+        "difficulty": "Easy",
+        "price": 3.99,
+        "rating": 4.7,
+        "category": "Appetizers"
+    },
+    {
+        "title": "Classic Margherita Pizza",
+        "author": "PizzaMaster",
+        "email": "pizzamaster@example.com",
+        "authorImg": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2hpZWZ8ZW58MHx8MHx8fDA%3D",
+        "recipeImg": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2020_09/3246761/plain_pizza.jpg",
+        "description": "An authentic Margherita pizza with fresh basil and mozzarella.",
+        "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella cheese", "Fresh basil", "Olive oil"],
+        "instructions": [
+            "Preheat oven to 475°F (245°C).",
+            "Roll out pizza dough on a floured surface.",
+            "Spread tomato sauce on the dough.",
+            "Add slices of mozzarella cheese.",
+            "Bake for 10-12 minutes until crust is golden.",
+            "Top with fresh basil and drizzle with olive oil."
+        ],
+        "cuisineType": "Italian",
+        "difficulty": "Medium",
+        "price": 8.99,
+        "rating": 4.9,
+        "category": "Main Courses"
+    },
+    {
+        "title": "Chocolate Chip Cookies",
+        "author": "CookieMonster",
+        "email": "cookiemonster@example.com",
+        "authorImg": "https://plus.unsplash.com/premium_photo-1661266851970-7f2bf75fdc40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2hpZWZ8ZW58MHx8MHx8fDA%3D",
+        "recipeImg": "https://www.allrecipes.com/thmb/8xwaWAHtl_QLij6D-G0Z4B1HDVA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/10813-best-chocolate-chip-cookies-mfs-146-4x3-b108aceffa6043a1ac81c3c5a9b034c8.jpg",
+        "description": "Classic chocolate chip cookies with a chewy center and crispy edges.",
+        "ingredients": ["Flour", "Butter", "Sugar", "Brown sugar", "Eggs", "Vanilla extract", "Chocolate chips"],
+        "instructions": [
+            "Preheat oven to 350°F (175°C).",
+            "Cream together butter and sugars.",
+            "Add eggs and vanilla extract.",
+            "Mix in flour and chocolate chips.",
+            "Drop spoonfuls of dough onto baking sheet.",
+            "Bake for 10-12 minutes."
+        ],
+        "cuisineType": "American",
+        "difficulty": "Easy",
+        "price": 4.99,
+        "rating": 4.6,
+        "category": "Desserts"
+    },
+    {
+        "title": "Classic Caesar Salad",
+        "author": "SaladGuru",
+        "email": "saladguru@example.com",
+        "authorImg": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2hpZWZ8ZW58MHx8MHx8fDA%3D",
+        "recipeImg": "https://www.allrecipes.com/thmb/mXZ0Tulwn3x9_YB_ZbkiTveDYFE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/229063-Classic-Restaurant-Caesar-Salad-ddmfs-4x3-231-89bafa5e54dd4a8c933cf2a5f9f12a6f.jpg",
+        "description": "A fresh Caesar salad with homemade dressing and croutons.",
+        "ingredients": ["Romaine lettuce", "Parmesan cheese", "Croutons", "Caesar dressing"],
+        "instructions": [
+            "Chop romaine lettuce.",
+            "Toss with Caesar dressing.",
+            "Add Parmesan cheese and croutons."
+        ],
+        "cuisineType": "Italian",
+        "difficulty": "Easy",
+        "price": 5.99,
+        "rating": 4.4,
+        "category": "Appetizers"
+    },
+    {
+        "title": "Beef Tacos",
+        "author": "TacoLover",
+        "email": "tacolover@example.com",
+        "authorImg": "https://example.com/authors/tacolover.jpg",
+        "recipeImg": "https://example.com/recipes/beef_tacos.jpg",
+        "description": "Delicious beef tacos with homemade seasoning and fresh toppings.",
+        "ingredients": ["Ground beef", "Taco seasoning", "Tortillas", "Lettuce", "Tomato", "Cheese", "Sour cream"],
+        "instructions": [
+            "Cook ground beef with taco seasoning.",
+            "Warm tortillas.",
+            "Assemble tacos with beef, lettuce, tomato, cheese, and sour cream."
+        ],
+        "cuisineType": "Mexican",
+        "difficulty": "Easy",
+        "price": 6.99,
+        "rating": 4.7,
+        "category": "Main Courses"
+    },
+    {
+        "title": "Lemon Garlic Salmon",
+        "author": "SeafoodFanatic",
+        "email": "seafoodfanatic@example.com",
+        "authorImg": "https://example.com/authors/seafoodfanatic.jpg",
+        "recipeImg": "https://example.com/recipes/lemon_garlic_salmon.jpg",
+        "description": "A simple and healthy lemon garlic salmon baked to perfection.",
+        "ingredients": ["Salmon fillets", "Lemon", "Garlic", "Olive oil", "Parsley"],
+        "instructions": [
+            "Preheat oven to 400°F (200°C).",
+            "Place salmon fillets on a baking sheet.",
+            "Drizzle with olive oil and lemon juice.",
+            "Add minced garlic and parsley.",
+            "Bake for 15-20 minutes."
+        ],
+        "cuisineType": "Mediterranean",
+        "difficulty": "Easy",
+        "price": 9.99,
+        "rating": 4.8,
+        "category": "Main Courses"
+    },
+    {
+        "title": "Blueberry Pancakes",
+        "author": "BreakfastChampion",
+        "email": "breakfastchampion@example.com",
+        "authorImg": "https://example.com/authors/breakfastchampion.jpg",
+        "recipeImg": "https://example.com/recipes/blueberry_pancakes.jpg",
+        "description": "Fluffy pancakes filled with fresh blueberries, perfect for breakfast.",
+        "ingredients": ["Flour", "Milk", "Eggs", "Butter", "Blueberries", "Baking powder", "Sugar"],
+        "instructions": [
+            "Mix flour, baking powder, and sugar.",
+            "Add milk, eggs, and melted butter.",
+            "Fold in blueberries.",
+            "Cook on a griddle until golden brown."
+        ],
+        "cuisineType": "American",
+        "difficulty": "Easy",
+        "price": 4.49,
+        "rating": 4.5,
+        "category": "Main Courses"
+    },
+    {
+        "title": "Vegetarian Lasagna",
+        "author": "VeggieChef",
+        "email": "veggiechef@example.com",
+        "authorImg": "https://example.com/authors/veggiechef.jpg",
+        "recipeImg": "https://example.com/recipes/vegetarian_lasagna.jpg",
+        "description": "A hearty and delicious vegetarian lasagna with layers of vegetables and cheese.",
+        "ingredients": ["Lasagna noodles", "Tomato sauce", "Ricotta cheese", "Mozzarella cheese", "Zucchini", "Spinach"],
+        "instructions": [
+            "Preheat oven to 375°F (190°C).",
+            "Cook lasagna noodles according to package instructions.",
+            "Layer noodles, tomato sauce, ricotta cheese, mozzarella cheese, and vegetables in a baking dish.",
+            "Repeat layers and top with remaining cheese.",
+            "Bake for 45 minutes until bubbly and golden."
+        ],
+        "cuisineType": "Italian",
+        "difficulty": "Medium",
+        "price": 8.99,
+        "rating": 4.7,
+        "category": "Main Courses"
+    }
+]
