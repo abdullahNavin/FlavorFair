@@ -1,5 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { AuthContext } from '../Context/ContextProvider';
+import { signOut } from 'firebase/auth';
+import { auth } from '../Firebase/Firebase.config';
 
 const Navbar = () => {
     const menu = <>
@@ -7,6 +10,16 @@ const Navbar = () => {
         <li className='text-xl font-bold'><NavLink to={'/recipes'}>Recipes</NavLink></li>
         <li className='text-xl font-bold'><NavLink to={'/deshbord'}>Deshbord</NavLink></li>
     </>
+    const { user } = useContext(AuthContext)
+    const handleLogout = () => {
+        signOut(auth)
+            .then(res => {
+
+            })
+            .catch(error => {
+                console.log(error.message);
+            })
+    }
     return (
         <div className='bg-[#ffffff6f] navBar'>
             <div className="navbar container mx-auto">
@@ -31,7 +44,12 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link className='bg-[#f66916] py-2 px-4 text-white rounded font-bold' to={'/Login'}>Login</Link>
+                    {
+                        user ?
+                            <Link onClick={handleLogout} className='bg-[#f66916] py-2 px-4 text-white rounded font-bold' to={'/Login'}>Log Out</Link>
+                            :
+                            <Link className='bg-[#f66916] py-2 px-4 text-white rounded font-bold' to={'/Login'}>Login</Link>
+                    }
                 </div>
             </div>
         </div>
