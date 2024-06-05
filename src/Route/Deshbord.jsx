@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
-import { Outlet } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import Navbar from '../Components/Navbar';
 import { AuthContext } from '../Context/ContextProvider';
 
 const Deshbord = () => {
     const { user } = useContext(AuthContext)
-    console.log(user.displayName);
+    // console.log(user.displayName);
     return (
         <div className='h-screen bg-[url("/src/assets/deshbo2.jpg")] bg-cover bg-center backdrop-filter brightness-[.8]'>
             <Navbar></Navbar>
@@ -18,13 +18,21 @@ const Deshbord = () => {
                         <p className='text-xl text-center my-4'>{user.displayName}</p>
                     </div>
                     <div className='mt-7 flex flex-col p-4 gap-4'>
-                        <button className='bg-[#ffffff9e] text-xl font-bold py-1 px-3 rounded-full'>My Recipes</button>
-                        <button className='bg-[#ffffff9e] text-xl font-bold py-1 px-3 rounded-full'>Add Recipes</button>
-                        <button className='bg-[#ffffff9e] text-xl font-bold py-1 px-3 rounded-full'>My Buy Recipes</button>
-                        <button className='bg-[#ffffff9e] text-xl font-bold py-1 px-3 rounded-full'>My Sell Recipes</button>
+                        <Link to={'/Deshbord'}>
+                            <button className='bg-[#ffffff9e] text-xl font-bold py-1 px-3 rounded-full w-full'>My Recipes</button>
+                        </Link>
+                        <Link to={'/Deshbord/AddR'}>
+                            <button className='bg-[#ffffff9e] text-xl font-bold py-1 px-3 rounded-full w-full'>Add Recipes</button>
+                        </Link>
+                        <Link to={'/Deshbord/BuyR'}>
+                            <button className='bg-[#ffffff9e] text-xl font-bold py-1 px-3 rounded-full w-full'>My Buy Recipes</button>
+                        </Link>
+                        <Link to={'/Deshbord/SellR'}>
+                            <button className='bg-[#ffffff9e] text-xl font-bold py-1 px-3 rounded-full w-full'>My Sell Recipes</button>
+                        </Link>
                     </div>
                 </div>
-                <div className='col-span-9 h-full bg-[#00000061] rounded'>
+                <div className='col-span-9 h-full bg-[#00000090] rounded p-4 overflow-auto'>
                     <Outlet></Outlet>
                 </div>
             </div>

@@ -8,6 +8,9 @@ import SignUp from "./SignUp";
 import Deshbord from "./Deshbord";
 import MyRecipes from "./Deshbord/MyRecipes";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
+import AddRecipes from "./Deshbord/AddRecipes";
+import MyBuyRecipes from "./Deshbord/MyBuyRecipes";
+import MySellRecipes from "./Deshbord/MySellRecipes";
 
 const router = createBrowserRouter([
     {
@@ -39,11 +42,23 @@ const router = createBrowserRouter([
         element:<PrivateRoute><Deshbord></Deshbord></PrivateRoute>,
         children:[
             {
-                path:'/Deshbord/MyR',
+                path:'/Deshbord',
                 element:<MyRecipes></MyRecipes>
+            },
+            {
+                path:'/Deshbord/AddR',
+                element:<AddRecipes></AddRecipes>
+            },
+            {
+                path:'/Deshbord/BuyR',
+                element:<MyBuyRecipes></MyBuyRecipes>
+            },
+            {
+                path:'/Deshbord/SellR',
+                element:<MySellRecipes></MySellRecipes>
             }
         ]
-    }
+    },
 ])
 
 export default router;
