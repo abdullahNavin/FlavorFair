@@ -11,6 +11,7 @@ import PrivateRoute from "../PrivateRoute/PrivateRoute";
 import AddRecipes from "./Deshbord/AddRecipes";
 import MyBuyRecipes from "./Deshbord/MyBuyRecipes";
 import MySellRecipes from "./Deshbord/MySellRecipes";
+import UpdateRecipe from "./Deshbord/UpdateRecipe";
 
 const router = createBrowserRouter([
     {
@@ -26,6 +27,11 @@ const router = createBrowserRouter([
                 path:'/recipes',
                 element:<Recipes></Recipes>
             },
+            {
+                path:'/UpdateR/:id',
+                loader:({params})=> fetch(`http://localhost:5000/recipes/${params.id}`),
+                element:<PrivateRoute><UpdateRecipe></UpdateRecipe></PrivateRoute>
+            }
             
         ]
     },

@@ -14,7 +14,7 @@ const Recipes = () => {
             })
     }, [])
     const handleSearch = (e) => {
-        const search = e.target.value;
+        const search = e.target.value.toLowerCase();
         if (search) {
             const SearchItem = recipes.filter(res => res.title.toLowerCase().includes(search))
 
@@ -55,7 +55,7 @@ const Recipes = () => {
                     </select>
                 </div>
             </div>
-            <div className='my-12 grid sm:grid-cols-1 lg:grid-cols-3 gap-4 '>
+            <div className='my-12 grid sm:grid-cols-1 lg:grid-cols-3 gap-6 '>
                 {
                     recipes.map(recipe => <SinRecipe key={recipe._id} recipe={recipe}></SinRecipe>)
                 }

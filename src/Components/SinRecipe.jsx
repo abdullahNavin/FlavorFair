@@ -5,7 +5,7 @@ Aos.init()
 const SinRecipe = ({ recipe }) => {
     const { title, recipeImg, difficulty, price, rating, category, authorImg, author } = recipe
     return (
-        <div data-aos="fade-up" data-aos-duration="1000" className='bg-gray-100 hover:shadow-lg'>
+        <div data-aos="fade-up" data-aos-duration="1000" className='bg-gray-100 hover:shadow-lg lg:mb-5'>
             <div className="h-[40vh]">
                 <img className='w-full h-full' src={recipeImg} alt="recipeImg" />
             </div>

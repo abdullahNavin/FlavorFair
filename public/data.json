@@ -129,7 +129,7 @@
         "author": "TacoLover",
         "email": "tacolover@example.com",
         "authorImg": "https://example.com/authors/tacolover.jpg",
-        "recipeImg": "https://example.com/recipes/beef_tacos.jpg",
+        "recipeImg": "https://iamhomesteader.com/wp-content/uploads/2022/04/birria-taco-2.jpg",
         "description": "Delicious beef tacos with homemade seasoning and fresh toppings.",
         "ingredients": ["Ground beef", "Taco seasoning", "Tortillas", "Lettuce", "Tomato", "Cheese", "Sour cream"],
         "instructions": [
@@ -145,8 +145,8 @@
     },
     {
         "title": "Lemon Garlic Salmon",
-        "author": "SeafoodFanatic",
-        "email": "seafoodfanatic@example.com",
+        "author": "Abdullah Navin",
+        "email": "navinfayed26@gmail.com",
         "authorImg": "https://example.com/authors/seafoodfanatic.jpg",
         "recipeImg": "https://example.com/recipes/lemon_garlic_salmon.jpg",
         "description": "A simple and healthy lemon garlic salmon baked to perfection.",
