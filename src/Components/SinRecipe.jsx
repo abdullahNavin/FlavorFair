@@ -1,9 +1,10 @@
 import Aos from "aos";
 import 'aos/dist/aos.css';
+import { Link } from "react-router-dom";
 Aos.init()
 
 const SinRecipe = ({ recipe }) => {
-    const { title, recipeImg, difficulty, price, rating, category, authorImg, author } = recipe
+    const { title, recipeImg, difficulty, price, rating, category, authorImg, author,_id } = recipe
     return (
         <div data-aos="fade-up" data-aos-duration="1000" className='bg-gray-100 hover:shadow-lg lg:mb-5'>
             <div className="h-[40vh]">
@@ -20,7 +21,9 @@ const SinRecipe = ({ recipe }) => {
                 </div>
                 <div className="flex justify-between items-center">
                     <p className="text-[#f66916] text-xl ml-11">${price}</p>
-                    <button className="bg-[#f66916] hover:bg-[#fa7426] py-2 px-3 text-white rounded-md">Details</button>
+                    <Link to={`/details/${_id}`}>
+                        <button className="bg-[#f66916] hover:bg-[#fa7426] py-2 px-3 text-white rounded-md">Details</button>
+                    </Link>
                 </div>
             </div>
         </div>

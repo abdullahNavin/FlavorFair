@@ -12,6 +12,7 @@ import AddRecipes from "./Deshbord/AddRecipes";
 import MyBuyRecipes from "./Deshbord/MyBuyRecipes";
 import MySellRecipes from "./Deshbord/MySellRecipes";
 import UpdateRecipe from "./Deshbord/UpdateRecipe";
+import Details from "./Details";
 
 const router = createBrowserRouter([
     {
@@ -31,6 +32,11 @@ const router = createBrowserRouter([
                 path:'/UpdateR/:id',
                 loader:({params})=> fetch(`http://localhost:5000/recipes/${params.id}`),
                 element:<PrivateRoute><UpdateRecipe></UpdateRecipe></PrivateRoute>
+            },
+            {
+                path:'/details/:id',
+                element:<Details></Details>,
+                loader: ({params})=> fetch(`http://localhost:5000/recipes/${params.id}`)
             }
             
         ]

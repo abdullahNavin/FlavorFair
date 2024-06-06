@@ -9,7 +9,7 @@ const MyRecipes = () => {
     useEffect(() => {
         axios.get(`http://localhost:5000/recipes?email=${user?.email}`)
             .then(res => setData(res.data))
-    }, [user])
+    }, [user,data])
     return (
         <div>
             <div className='text-center'>
@@ -17,7 +17,7 @@ const MyRecipes = () => {
             </div>
             <div>
                 {
-                    data.map((res,index) => <SinMyRecipe key={res._id} index={index} res={res}></SinMyRecipe>)
+                    data.map((res,index) => <SinMyRecipe key={res._id} index={index} res={res} data={data} setData={setData}></SinMyRecipe>)
                 }
             </div>
         </div>
